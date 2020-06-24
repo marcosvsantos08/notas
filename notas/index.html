@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de notas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body background="Ciência.jpg">
+    <div id="geral">
+    <p> Escolha sua turma:
+    <select onclick="aparecer()" name="select" id="select">
+        <option value="selecionar" selected>Selecionar</option>
+        <option value="1" >Turma 1</option>
+        <option value="2" >Turma 2</option>
+    </select></p>
+    
+    <br><br>
+    <div id="tabela1" class="escondido">
+    <table>
+        <caption>Turma 1</caption>
+        <tr>
+          <th>Nome</th>
+          <th>Nota 1</th>
+          <th>Nota 2</th>
+          <th>Nota 3</th>
+        </tr>
+        <tr>
+          <td >Ricardo</td>
+          <td>10</td>
+          <td>9.5</td>
+          <td>7</td>
+        </tr>
+        <tr>
+            <td >Fernando</td>
+            <td>6</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td >Maria</td>
+            <td>7</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td >Ana</td>
+            <td>6</td>
+            <td>9</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td >Olavo</td>
+            <td>5</td>
+            <td>9</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td >Ismael</td>
+            <td>9</td>
+            <td>6</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td >Jessica</td>
+            <td>8</td>
+            <td>7.5</td>
+            <td>9</td>
+        </tr>  
+        </table>
+    </div >
+    <div id="tabela2" class="escondido">   
+    <table>
+        <caption>Turma 2</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+            <th>Nota 3</th>
+          </tr>
+        <tr>
+          <td >Victor</td>
+          <td>10</td>
+          <td>9.5</td>
+          <td>7</td>
+        </tr>
+        <tr>
+            <td >Isabela</td>
+            <td>6</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td >Claudia</td>
+            <td>9</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td >Marcos</td>
+            <td>9</td>
+            <td>9</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td >Guilherme</td>
+            <td>5</td>
+            <td>9</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td >Felipe</td>
+            <td>8</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td >Antonio</td>
+            <td>8</td>
+            <td>7.5</td>
+            <td>6</td>
+        </tr>
+    </table>
+    </div>        
+    </div> 
+    <script src="notas.js"></script> 
+</body>
+</html>

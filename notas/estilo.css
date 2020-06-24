@@ -1,0 +1,35 @@
+ 
+#geral{
+    background-color: rgb(245, 245, 255);
+    margin: 0 auto;
+    width: 40%;
+    padding: 10px;
+
+}
+p{
+    font-size: 20pt;
+    margin-left: 25%;
+}
+select{
+    font-size: 20pt;
+}
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 60%;
+    
+   
+}
+
+td,th{
+    border: 1px solid rgb(37, 36, 36);
+    padding: 5px;
+    font-size: 15pt;
+}
+.escondido{
+    display: none;
+}
+caption{
+    font-size: 25pt;
+    font-weight: bold;
+}

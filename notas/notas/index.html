@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de notas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body background="Ciência.jpg">
+    <div id="geral">
+    <p> Escolha a quantidade de alunos:
+    <select onclick="aparecer()" name="select" id="select">
+        <option value="selecionar" selected>Selecionar</option>
+        <option value="1" >1</option>
+        <option value="2" >2</option>
+        <option value="3" >3</option>
+        <option value="4" >4</option>
+        <option value="5" >5</option>
+        <option value="6" >6</option>
+        <option value="7" >7</option>
+        <option value="8" >8</option>
+        <option value="9" >9</option>
+        <option value="10" >10</option>
+        <option value="11" >11</option>
+        <option value="12" >12</option>
+        <option value="13" >13</option>
+        <option value="14" >14</option>
+        <option value="15" >15</option>
+       
+    </select></p>
+    
+    <br><br>
+    <div id="pos0" class="escondido">
+    <table>
+        <caption>Turma</caption>
+        <tr>
+          <th>Nome</th><th>Nota 1</th><th>Nota 2</th><th>Nota 3</th><th>Media</th><th>Situacão</th>
+        </tr>
+        <tr id="pos1" class="escondido">
+            <td><input type="text" name="nome"></input></td><td><input type="number" name="nota1"></input></td><td><input type="number" name="nota2"></input></td><td><input type="number" name="nota3"></input></td><td><input readonly type="number" name="media"></input></td><td><input readonly type="text" name="sit"></input></td>
+        </tr>
+        <tr id="pos2" class="escondido">
+            <td><input type="text" name="nome"></input></td><td><input type="number" name="nota1"></input></td><td><input type="number" name="nota2"></input></td><td><input type="number" name="nota3"></input></td><td><input readonly type="number" name="media"></input></td><td><input readonly type="text" name="sit"></input></td>
+        </tr>
+        <tr id="pos3" class="escondido">
+            <td><input type="text" name="nome"></input></td><td><input type="number" name="nota1"></input></td><td><input type="number" name="nota2"></input></td><td><input type="number" name="nota3"></input></td><td><input readonly type="number" name="media"></input></td><td><input readonly type="text" name="sit"></input></td>
+        </tr>
+        <tr id="pos4" class="escondido">
+            <td><input type="text" name="nome"></input></td><td><input type="number" name="nota1"></input></td><td><input type="number" name="nota2"></input></td><td><input type="number" name="nota3"></input></td><td><input readonly type="number" name="media"></input></td><td><input readonly type="text" name="sit"></input></td>               
+        </tr>
+        <tr id="pos5" class="escondido">
+            <td><input type="text" name="nome"></input></td><td><input type="number" name="nota1"></input></td><td><input type="number" name="nota2"></input></td><td><input type="number" name="nota3"></input></td><td><input readonly type="number" name="media"></input></td><td><input readonly type="text" name="sit"></input></td>       
+        </tr>
+        <tr id="pos6" class="escondido">
+            <td><input type="text" name="nome"></input></td><td><input type="number" name="nota1"></input></td><td><input type="number" name="nota2"></input></td><td><input type="number" name="nota3"></input></td><td><input readonly type="number" name="media"></input></td><td><input readonly type="text" name="sit"></input></td>  
+        </tr>
+        <tr id="pos7" class="escondido">
+            <td><input type="text" name="nome"></input></td><td><input type="number" name="nota1"></input></td><td><input type="number" name="nota2"></input></td><td><input type="number" name="nota3"></input></td><td><input readonly type="number" name="media"></input></td><td><input readonly type="text" name="sit"></input></td>
+        </tr> 
+        <tr id="pos8" class="escondido">
+            <td><input type="text" name="nome"></input></td><td><input type="number" name="nota1"></input></td><td><input type="number" name="nota2"></input></td><td><input type="number" name="nota3"></input></td><td><input readonly type="number" name="media"></input></td><td><input readonly type="text" name="sit"></input></td>
+        </tr>
+        <tr id="pos9" class="escondido">
+            <td><input type="text" name="nome"></input></td><td><input type="number" name="nota1"></input></td><td><input type="number" name="nota2"></input></td><td><input type="number" name="nota3"></input></td><td><input readonly type="number" name="media"></input></td><td><input readonly type="text" name="sit"></input></td>
+        </tr> 
+        <tr id="pos10" class="escondido">
+            <td><input type="text" name="nome"></input></td><td><input type="number" name="nota1"></input></td><td><input type="number" name="nota2"></input></td><td><input type="number" name="nota3"></input></td><td><input readonly type="number" name="media"></input></td><td><input readonly type="text" name="sit"></input></td>
+        </tr>
+        <tr id="pos11" class="escondido">
+            <td><input type="text" name="nome"></input></td><td><input type="number" name="nota1"></input></td><td><input type="number" name="nota2"></input></td><td><input type="number" name="nota3"></input></td><td><input readonly type="number" name="media"></input></td><td><input readonly type="text" name="sit"></input></td>
+        </tr>
+        <tr id="pos12" class="escondido">
+            <td><input type="text" name="nome"></input></td><td><input type="number" name="nota1"></input></td><td><input type="number" name="nota2"></input></td><td><input type="number" name="nota3"></input></td><td><input readonly type="number" name="media"></input></td><td><input readonly type="text" name="sit"></input></td>
+        </tr>
+        <tr id="pos13" class="escondido">
+            <td><input type="text" name="nome"></input></td><td><input type="number" name="nota1"></input></td><td><input type="number" name="nota2"></input></td><td><input type="number" name="nota3"></input></td><td><input readonly type="number" name="media"></input></td><td><input readonly type="text" name="sit"></input></td>
+        </tr>
+        <tr id="pos14" class="escondido">
+            <td><input type="text" name="nome"></input></td><td><input type="number" name="nota1"></input></td><td><input type="number" name="nota2"></input></td><td><input type="number" name="nota3"></input></td><td><input readonly type="number" name="media"></input></td><td><input readonly type="text" name="sit"></input></td>
+        </tr>
+        <tr id="pos15" class="escondido">
+            <td><input type="text" name="nome"></input></td><td><input type="number" name="nota1"></input></td><td><input type="number" name="nota2"></input></td><td><input type="number" name="nota3"></input></td><td><input readonly type="number" name="media"></input></td><td><input readonly type="text" name="sit"></input></td>
+        </tr>
+        </table>
+        <button onclick="calcular()">Calcular Media</button>
+    </div >
+    </div> 
+    <script src="notas.js"></script> 
+</body>
+</html>

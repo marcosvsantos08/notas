@@ -16,8 +16,10 @@ let a=0;
         media[i].value=parseFloat(media[i].value).toFixed(1);
         if(media[i].value>=7){
             sit[i].value= "Aprovado";
+            sit[i].style.background='green'
         }else{
             sit[i].value= "Reprovado";
+            sit[i].style.background='red'
         }
         if(media[i].value > mediaMaior){
             mediaMaior=media[i].value;
